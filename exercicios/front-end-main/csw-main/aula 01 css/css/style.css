@@ -1,0 +1,19 @@
+/* css document*/
+@charset "UTF-8";
+body{
+    background-color:red;
+
+}
+
+h1{
+    background-color: aqua;
+    color:blue;
+}
+ h2{
+    background-color:blue;
+ }
+p{
+    background-color: black;
+    color:red;
+
+}

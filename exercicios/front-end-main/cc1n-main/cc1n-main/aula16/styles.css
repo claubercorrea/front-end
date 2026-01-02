@@ -1,0 +1,44 @@
+
+
+.conter{
+    background-color: gray;
+    height: 400px;
+    display: flex;
+    align
+    flex-direction:row;
+    /*justify-content: space-around;*/
+    /*align-items: baseline;*/
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-content:stretch;
+
+}
+
+.artigo1{
+    background-color: darkgreen;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    width: 24px;
+}
+
+.artigo2{
+    background-color: darkgreen;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+}
+.artigo{
+    background-color: darkgreen;
+    color: #fff;
+    padding: 20px;
+    margin: 5px;
+    /*font-size: 3cm*/;
+}
+.conterdiv{
+    background-color: #fff;
+   width: 120px; ;
+   right: ;
+    border-radius: 50%;
+
+}

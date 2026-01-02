@@ -1,0 +1,35 @@
+body{
+    background-color: aliceblue;
+}
+#divsimples{
+background-color: lightcyan;
+text-align:center;
+border:1px solid black;
+display: hove 
+
+}
+
+.divtratada{
+display:  inline-block;
+background-color: lightcyan;
+text-align:center;
+height: 200px;
+width: 200px;
+border:1px solid black;
+}
+.disco{
+    display:  inline-block;
+background-color: lightcyan;
+text-align:center;
+height: 200px;
+width: 200px;
+border:1px solid black;
+
+}
+
+
+div:hover {
+    background-color: red;
+    font-weight: bold;
+
+}

@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index2</title>
+</head>
+<body>
+    <h1><strong> minios </strong></h1>
+    <p> <p> <font size="4" face="arial">Os Minions se unem ao jovem Gru causando estragos pela periferia de seu bairro nos anos 1970. <br>
+         Quando ele consegue a chance de poder se juntar aos vilões mais malvados do mundo,<br>
+          o Sexteto Sinistro, Gru precisa escolher entre o trabalho dos seus sonhos e os Minions.</font>
+    
+</p>
+<br>
+
+<h1>sinopse do filme minios</h1>
+<p> <font size="4" face="arial">Em Bons Meninos, três meninos ainda inocentes, mas que estão <br>
+     prestes a atingirem a adolescência, matam aula em San Fernando Valley, <br>
+      na Califórinia, para conseguir consertar um drone quebrado antes que seus pais <br>
+       cheguem em casa. O que prometia ser um dia comum transforma-se em uma grande aventura <br>
+        repleta de perigos cômicos.</font></p>
+<a href="pagina1.html"> <p> <font size="4"><strong>HOME</strong></font></p> </a>
+    </body>
+
+
+</html>

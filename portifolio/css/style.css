@@ -1,0 +1,278 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ main{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    width: 100%;
+   
+
+}
+.container{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+
+}
+.carossel{
+    width: 100%;
+    display: flex;
+    position: relative;
+ color:red;
+}
+.item{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left:100%;
+    animation: autoRun 20s linear infinite;
+    animation-delay: /*calc(10 / var(--quantity)) **/var(--delay);
+    cursor: pointer;
+  
+    
+}
+
+.item img{
+    width: 100%;
+    
+}
+
+@keyframes autoRun {
+    from{
+        left:100%
+    }
+    to{
+        left: -50px;
+    }
+    
+}
+body {
+    background-color: black;
+    color: white;
+    line-height: 1.6;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* --- HEADER E NAV --- */
+header {
+    width: 100%;
+    padding: 20px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Importante para dispositivos pequenos */
+    list-style: none;
+    gap: clamp(10px, 3vw, 30px); /* Espaçamento fluido */
+}
+
+nav > ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: clamp(0.9rem, 2.5vw, 1.2rem); /* Fonte fluida */
+    transition: 0.3s;
+}
+
+/* --- CONTAINER PRINCIPAL --- */
+main {
+    width: 95%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+
+/* --- CONTAINER AZUL (FRASE + PERFIL) --- */
+.containe_frase {
+    display: flex;
+    flex-direction: column; /* Celular primeiro: empilhado */
+    align-items: center;
+    justify-content: space-between;
+    background-color: blue;
+    padding: clamp(20px, 5vw, 40px);
+    border-radius: 25px;
+    gap: 20px;
+    width: 100%;
+}
+
+.texto-box {
+    text-align: center;
+}
+
+.paragrafo {
+    font-size: clamp(1rem, 3vw, 1.4rem);
+    color: white;
+    font-weight: bold;
+}
+
+.nome {
+    font-size: clamp(1.4rem, 4vw, 2.2rem);
+    margin-top: 10px;
+    display: inline-block;
+}
+
+/* FOTO DE PERFIL */
+.eu {
+    width: clamp(120px, 20vw, 180px);
+    height: clamp(120px, 20vw, 180px);
+    border-radius: 50%;
+    border: 6px solid green;
+    background-color: black;
+    flex-shrink: 0;
+    overflow: hidden;
+}
+
+.eu img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* --- CARROSSEL --- */
+#default-carousel {
+    width: 100%;
+    height: clamp(200px, 50vw, 500px); /* Altura proporcional à tela */
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+   
+}
+
+/* --- REDES SOCIAIS --- */
+.rede_socias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    border: 4px solid blue;
+    padding: 15px 30px;
+    border-radius: 50px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.rede_socias ul {
+    display: flex;
+    list-style: none;
+    gap: 20px 50px;
+    height: 50px;
+    width: 200px;
+    
+}
+
+/* --- FOOTER --- */
+footer {
+    padding: 40px 20px;
+    border-top: 1px solid #333;
+    text-align: center;
+}
+
+.lista {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.nome{
+    background-color: black;
+    margin: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:red;
+    font-weight: bold;
+}
+    .paragrafo{
+        color: yellow ;
+        font-size: 1.9em;
+        font-weight: bold;
+
+    }
+
+    .texto-box > .nome{
+        display: flex;
+        text-align: center;
+        margin-right: auto;
+        top: 500%;
+    }
+
+    /* ------------------------------------------------------------------- */
+    .container{
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+    
+
+}
+.carossel{
+    width: 100%;
+    display: flex;
+    position: relative;
+ color:red;
+}
+.item{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    left:100%;
+    animation: autoRun 20s linear infinite;
+    animation-delay: /*calc(10 / var(--quantity)) **/var(--delay);
+    cursor: pointer;
+  
+    
+}
+
+.item img{
+    width: 100%;
+    
+}
+
+@keyframes autoRun {
+    from{
+        left:100%
+    }
+    to{
+        left: -50px;
+    }
+    
+}
+
+    /* http://youtube.com/watch?v=OmPAD9hU0zU */
+
+/* ---------------------------------------------------------------------- */
+
+/* --- MEDIA QUERIES (PARA TABLETS E DESKTOP) --- */
+
+@media (min-width: 769px) {
+    /* No desktop, o conteúdo azul fica lado a lado (Foto à direita) */
+    .containe_frase {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .texto-box {
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Ajustes para celulares muito pequenos */
+    .rede_socias {
+        width: 90%;
+    }
+    
+    nav > ul {
+        gap: 10px;
+    }
+}
+
