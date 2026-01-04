@@ -1,0 +1,160 @@
+/* --- CONFIGURAÇÕES GLOBAIS --- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden; /* Evita rolagem lateral indesejada */
+    width: 100%;
+}
+
+/* --- HEADER --- */
+.header-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.header-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+/* --- CARROSSEL DE LINGUAGENS --- */
+.container {
+    width: 95%;
+    max-width: 1200px;
+    height: 62px;
+    margin: 10px auto;
+    border-radius: 99px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* --- MENU RESPONSIVO --- */
+.menu-container {
+    background:transparent;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.link_lista {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+/* Ícone do Menu (escondido no desktop) */
+.menu-icone {
+    display: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+/* --- SEÇÃO SOBRE (O SEU CONTEÚDO) --- */
+.inicio_sobre {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container_sobre img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    margin-bottom: -50px; /* Efeito de sobreposição */
+    position: relative;
+    z-index: 10;
+}
+
+.mover {
+    background: linear-gradient(90deg, #1CB5E0 0%, #000851 100%);
+    width: 100%;
+    max-width: 900px;
+    border-radius: 20px;
+    padding: 60px 20px 30px;
+    color: white;
+}
+
+.apresentacao_sobre {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.historia {
+    font-size: 1.0rem;
+    line-height: 1.6;
+    text-align: justify;
+    white-space: normal; /* Permite que o texto quebre linhas */
+    word-wrap: break-word;
+    white-space: pre;
+}
+
+/* --- MEDIA QUERIES (PARA CELULARES) --- */
+
+@media (max-width: 768px) {
+    /* Menu vira uma lista vertical escondida */
+    .menu-icone {
+        display: block;
+    }
+
+    .nav-link {
+        display: none; /* Esconde o menu */
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background: #15131b;
+        padding: 20px;
+        text-align: center;
+    }
+
+    /* Classe para mostrar o menu via JS */
+    .nav-link.active {
+        display: flex;
+    }
+
+    .apresentacao_sobre {
+        font-size: 1.8rem;
+    }
+
+    .historia {
+        font-size: 1rem;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+/* Footer responsivo */
+.lista {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    list-style: none;
+}
