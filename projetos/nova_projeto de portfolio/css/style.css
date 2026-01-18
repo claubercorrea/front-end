@@ -35,6 +35,8 @@ body{
  
 }
 
+
+
 header{
     display: flex;
     margin: 0;
@@ -61,7 +63,7 @@ padding: 20px;
     justify-content: center; /* Centraliza os itens horizontalmente */
     align-items: center;
     width: 100%;
-    margin: 20px auto; /* Dá um espaçamento confortável do topo */
+    margin: 20px auto; 
 }
 
 .ul_menu {
@@ -1368,6 +1370,7 @@ main.principal {
     justify-content: center; /* Centraliza verticalmente se houver altura sobrando */
     width: auto;
     padding: 20px;
+    height: 100%;
 }
 .container_habilidades_temas{
     gap:34px;
@@ -1501,6 +1504,11 @@ nav > .menu .link_menu {
 
 .container_rede_social,h1{
     font-size: 1rem;
+    
+}
+.habilidades{
+    margin-top: 20%;
+
 }
 .titulo_projeto> .titulo_pro{
     font-size: 1rem;
@@ -1521,6 +1529,8 @@ height:90%;
 
 .text-secondary{
     font-size: 0.8rem;
+    white-space: pre-line;
+    
 }
 .card-title{
     font-size:0.8rem ;
