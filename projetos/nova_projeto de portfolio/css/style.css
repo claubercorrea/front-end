@@ -685,8 +685,8 @@ footer> .contaiener_footer .lista_footer .link_footer:hover{
         display: flex;
         position: relative;
         white-space: normal;
-      width: 41%;
-            transform: scale(0.9);
+      width: 27%;
+          font-size: 1.1rem;
             line-height: 1.6;
     }
    .container_icones_pai{
@@ -708,9 +708,17 @@ footer> .contaiener_footer .lista_footer .link_footer:hover{
    
    }
    main{
-    min-height: 100%;
+  
+   display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center; /* ou end, conforme seu design */
+width: 100%;
+padding: 20px;
+
+  }
    
-   }
+   
 
 .container_rede_social{
          margin-top: 8%;
@@ -1024,6 +1032,9 @@ main{
     display: flex;
     position: relative;
     justify-content: center;
+        gap: 5px;
+    height: 289px;
+    margin-top: 3%;
 }
 body{
     margin: auto;
@@ -1063,16 +1074,16 @@ nav > .menu .link_menu{
     }
 
     .card{
-        width:auto ;
+        width:24% ;
        
     }
     .btn-sm{
-        height: 10px;
+            height: 31px;
         
     }
     .btn-primary {
     margin-top: auto;
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
 
     .pb-5{
@@ -1089,7 +1100,18 @@ nav > .menu .link_menu{
         height: 120px;
         margin-bottom: 10%;
     }
-    
+    .mb-3{
+        display: flex;
+        gap:5px;
+        font-size: 0.5rem;
+    }
+    .text-secondary {
+    margin-top: 10%;
+    font-size: smaller;
+}
+.card-title{
+    font-size: 1rem;
+}
 }
 
 
@@ -1104,10 +1126,12 @@ main.principal {
     align-items: center; /* Centraliza horizontalmente todos os filhos */
     justify-content: center; /* Centraliza verticalmente se houver altura sobrando */
     width: 100%;
-    padding: 20px;
+    padding:0 15px;
 }
 
-
+.mover_demons{
+    margin-top: 10px;
+}
 
 .sobre{
     width: 82%;
@@ -1129,8 +1153,8 @@ main.principal {
 
  
     .container_icones_pai{
-width: 400px;
-margin: auto;
+    width: 400px;
+    margin: auto;
 } 
 
     .python, .csharp, .icone_html, .css, .taiw, .boostramp, .dev_icone, .icone_mysql, .icone_oracle, .csharp1{
@@ -1139,8 +1163,8 @@ margin: auto;
 nav > .menu .link_menu {
     font-size: 0.6rem;
     text-align: center;
-            margin-top: 20px;
-                    margin-top: 9%;
+    margin-top: 20px;
+    margin-top: 9%;
     
 }
 
@@ -1181,9 +1205,9 @@ nav > .menu .link_menu {
         padding: 0;
     }
     nav > .menu .lista_menu:hover:hover{
-        background-color: blue;
-        border: 2px;
-          border-bottom: 1px solid white;   
+    background-color: blue;
+    border: 2px;
+    border-bottom: 1px solid white;   
   
           
          
@@ -1192,14 +1216,14 @@ nav > .menu .link_menu {
     nav{
         margin-top: 10%;
     }
-        nav > .menu .link_menu {
-        font-size: 0.6rem;
-        text-align: center;
-        margin-top: 20px;
-        margin-top: 2%;
-        height: 35px;
-        margin-bottom: 15px;
-        background: repeating-linear-gradient(45deg, black, transparent 100px);}
+nav > .menu .link_menu {
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 2%;
+    height: 35px;
+    margin-bottom: 15px;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);}
    nav > .menu .lista_menu{
     margin-top: 10px;
    }
@@ -1236,6 +1260,7 @@ nav > .menu .link_menu {
 .container_projeto{
 width: 400px;
 height:164px;
+gap: 3px;
 }
 
 .text-secondary{
@@ -1262,33 +1287,32 @@ height:164px;
 
 .badge{
     display: flex;
-    width: 25px;
+    width: 37px;
 
-            font-size: 0.4rem
+           
 } 
 
     .btn-sm {
         display: flex;
         position: relative;
         height: 0;
-        /* width: 0; */
+         width: 0; 
         font-size: 3px;
         display: flex;
-        /* justify-content: center; */
-        justify-content: center;
+        justify-content: center; 
+         justify-content: center; 
         margin: auto;
         margin-top: 0px;
        width: 27px;
         margin-bottom: 0;
-                height: 25px;
-        }
+        height: 25px;
+        } 
 
     .devicon-github-original {
-        position: relative;
-        font-size: 14px;
-       
-                margin-top: -1px;
-                margin-right: 2px;
+    position: relative;
+    font-size: 14px;
+    margin-top: -1px;
+    margin-right: 2px;
 }
 .card-img-top{
     font-size: 0.6rem;
@@ -1296,18 +1320,13 @@ height:164px;
 
 nav > .menu
 {
-           padding: 0 20px;
-        display: flex;
-        justify-content: center;
-        display: none;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    display: none;
 }
 
-.card_habilidade {
-    padding: 20px; /* Dá espaço entre os ícones e a borda do card */
-    margin-bottom: 15px; /* Separa um card do outro no celular */
-    width: 95%; /* Garante que o card use a largura da tela do celular */
-    
-} 
+
 .container_habilidades_temas{
     gap:34px;
 }
@@ -1332,6 +1351,11 @@ nav > .menu
     .area_contato{
         font-size: 1rem;
     }
+    .mb-3{
+        display: flex;
+        font-size: 0.5rem;
+        gap:5%;
+    }
      }
  
 /* 
@@ -1355,14 +1379,14 @@ main.principal {
         height: 20%;
     }
 .card_habilidade {
-        padding: 9px;
-        margin-bottom: -14px;
-        width: 94%;
-        margin: auto;
-        margin-top: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-        margin-left: auto;
+    padding: 9px;
+    margin-bottom: -14px;
+    width: 94%;
+    margin: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
     }
 
 
@@ -1379,15 +1403,15 @@ main.principal {
     font-size: 1rem;
 }
 .container_foto{
-        width: 100px;
+    width: 100px;
     height: 100px;
 
 }
 
  
     .container_icones_pai{
-width: 400px;
-margin: auto;
+    width: 400px;
+    margin: auto;
 } 
 
     .python, .csharp, .icone_html, .css, .taiw, .boostramp, .dev_icone, .icone_mysql, .icone_oracle, .csharp1{
@@ -1396,24 +1420,24 @@ margin: auto;
 nav > .menu .link_menu {
     font-size: 0.6rem;
     text-align: center;
-            margin-top: 20px;
-                    margin-top: 9%;
-    
+    margin-top: 20px;
+    margin-top: 9%;
+
 }
 
 .menu {
-        flex-direction: column;
-        gap: 15px;
+    flex-direction: column;
+    gap: 15px;
         
     }
     
     .menu-icone {
-        display: block;
-        position: absolute;
-        right: auto;
-        left: auto;
-        top: 10px;
-        height: 50px;
+    display: block;
+    position: absolute;
+    right: auto;
+    left: auto;
+    top: 10px;
+    height: 50px;
     }
     
     .nav-link {
@@ -1434,13 +1458,13 @@ nav > .menu .link_menu {
     }
     
     .nav_lista {
-        width: 100%;
-        padding: 0;
+    width: 100%;
+    padding: 0;
     }
     nav > .menu .lista_menu:hover:hover{
-        background-color: blue;
-        border: 2px;
-          border-bottom: 1px solid white;   
+    background-color: blue;
+    border: 2px;
+    border-bottom: 1px solid white;   
   
           
          
@@ -1471,8 +1495,8 @@ nav > .menu .link_menu {
 
 
 .habilidade_front-end, .habilidades_backend, .habilidades_frame, .habilidades_dados{
-            width: 48px;
-        font-size: 0.6rem;
+    width: 48px;
+    font-size: 0.6rem;
 }
 
 .container_rede_social,h1{
@@ -1519,10 +1543,15 @@ height:90%;
 
 .badge{
     display: flex;
-    width: 25px;
+    width: 35px;
 
             font-size: 0.4rem
 } 
+.mb-3{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+}
 
     .btn-sm {
         
@@ -1596,13 +1625,15 @@ nav > .menu
     .container_projeto {
         flex-direction: column !important;
         align-items: center;
-        height: auto !important
+        height: auto !important;
+                width: 273px;
 }
 
 
 
     
  }
+ 
 
 /* celulares pequenos (até 360px) */
 @media (max-width: 360px) {
@@ -1737,6 +1768,73 @@ nav > .menu
     text-align: center;
     
 }
+.menu {
+        flex-direction: column;
+        gap: 15px;
+        
+    }
+    
+    .menu-icone {
+        display: block;
+        position: absolute;
+        right: auto;
+        left: auto;
+        top: 10px;
+        height: 50px;
+    }
+    
+    .nav-link {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+    
+    .nav-link.active {
+        display: flex;
+        left: auto;
+        right: auto;
+        width: 200px;
+        padding: 1px ; 
+        gap: 5px;
+        
+    }
+    
+    .nav_lista {
+        width: 100%;
+        padding: 0;
+    }
+    nav > .menu .lista_menu:hover:hover{
+    background-color: blue;
+    border: 2px;
+    border-bottom: 1px solid white;   
+  
+          
+         
+    }
+
+    nav{
+        margin-top: 10%;
+    }
+nav > .menu .link_menu {
+    font-size: 0.6rem;
+    text-align: center;
+    margin-top: 20px;
+    margin-top: 2%;
+    height: 35px;
+    margin-bottom: 15px;
+    background: repeating-linear-gradient(45deg, black, transparent 100px);}
+   nav > .menu .lista_menu{
+    margin-top: 10px;
+   }
+    .link_lista {
+        padding: 15px 20px;
+        display: block;
+        border-bottom: 0px solid white;
+       border: 1px;
+       background-color: black  ;
+        top: 20px;
+    }
 
 .menu {
         flex-direction: column;
@@ -1785,7 +1883,13 @@ nav > .menu
     nav >.menu{
         display: none;
     }
-
+.projeto-card{
+    display: flex;
+}
+.btn-primary {
+        margin-top: auto;
+        font-size: 0.6rem;
+    }
 }
 
        
