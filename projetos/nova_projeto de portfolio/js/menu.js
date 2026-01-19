@@ -189,18 +189,18 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // ===== ATUALIZAR ANO DO COPYRIGHT =====
-    function updateCopyrightYear() {
-        const copyrightElements = document.querySelectorAll('.port');
-        const currentYear = new Date().getFullYear();
+        // ===== ATUALIZAR ANO DO COPYRIGHT =====
+        function updateCopyrightYear() {
+            const copyrightElements = document.querySelectorAll('.port');
+            const currentYear = new Date().getFullYear();
+            
+            copyrightElements.forEach(element => {
+                if (element.textContent.includes('2026')) {
+                    element.textContent = element.textContent.replace('2026', currentYear);
+                }
+            });
+        }
         
-        copyrightElements.forEach(element => {
-            if (element.textContent.includes('2026')) {
-                element.textContent = element.textContent.replace('2026', currentYear);
-            }
-        });
-    }
-    
     updateCopyrightYear();
     
     // ===== DETECTAR ORIENTAÇÃO MOBILE =====
