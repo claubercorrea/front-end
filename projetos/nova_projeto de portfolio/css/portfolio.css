@@ -20,6 +20,7 @@ body{
     display: flex;
     flex-direction: column;
        /* overflow: hidden; */
+       margin: 0 auto;
 }
 
 /* HEADER & NAGEGACAO*/
@@ -29,6 +30,7 @@ header{
     width: 100%;
     position:relative;
     display: flex;
+    margin: auto;
 }
 nav{
     display: flex;
@@ -45,7 +47,10 @@ nav{
     list-style: none;
     gap: 25px;
     padding: 0;
-    margin:0;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 .menu .link_menu{
@@ -80,14 +85,13 @@ position: fixed;
     align-items: center;
     padding:40px 20px;
     text-align: center;
+    justify-content: center;
  }
  .titulo{
     font-size:2.8rem;
     margin-bottom: 10px;
-   
-
-       
         color: chartreuse;
+        text-align: center;
     }
  
 
@@ -96,6 +100,8 @@ position: fixed;
     color:#00ffff;
     margin-bottom:20px;
     font-weight: bold;
+    text-align: center;
+    
 
  }
 
