@@ -1,84 +1,4 @@
-// document.addEventListener('DOMContentLoaded', function() {
-//     const menuToggle = document.getElementById('menuToggle');
-//     const navMenu = document.getElementById('navmenu');
-    
-//     // Verifica se os elementos existem na página antes de rodar
-//     if (menuToggle && navMenu) {
-        
-//         // Abre e fecha o menu ao clicar no ícone
-//         menuToggle.addEventListener('click', function() {
-//             navMenu.classList.toggle('active');
-//             // Opcional: animação no ícone se desejar
-//             menuToggle.classList.toggle('active');
-//         });
-        
-//         // Fecha o menu automaticamente ao clicar em um link
-//         const links = document.querySelectorAll('.link_lista');
-//         links.forEach(link => {
-//             link.addEventListener('click', () => {
-//                 navMenu.classList.remove('active');
-//                 menuToggle.classList.remove('active');
-//             });
-//         });
-//     }
-// });
 
-
-// document.addEventListener('DOMContentLoaded', function() {
-//     const menuIcon = document.querySelector('.menu-icone');
-//     const menu = document.querySelector('.menu');
-    
-//     if (menuIcon && menu) {
-//         // Toggle menu quando clicar no ícone
-//         menuIcon.addEventListener('click', function(e) {
-//             e.stopPropagation();
-//             menu.classList.toggle('active');
-//             menuIcon.innerHTML = menu.classList.contains('active') ? '✕' : '☰';
-//         });
-        
-//         // Fecha menu ao clicar fora
-//         document.addEventListener('click', function(e) {
-//             if (!menu.contains(e.target) && !menuIcon.contains(e.target)) {
-//                 menu.classList.remove('active');
-//                 menuIcon.innerHTML = '☰';
-//             }
-//         });
-        
-//         // Fecha menu ao clicar em um link
-//         const menuLinks = document.querySelectorAll('.link_menu');
-//         menuLinks.forEach(link => {
-//             link.addEventListener('click', () => {
-//                 menu.classList.remove('active');
-//                 menuIcon.innerHTML = '☰';
-//             });
-//         });
-        
-//         // Fecha menu ao redimensionar para desktop
-//         window.addEventListener('resize', function() {
-//             if (window.innerWidth > 767) {
-//                 menu.classList.remove('active');
-//                 menuIcon.innerHTML = '☰';
-//             }
-//         });
-//     }
-    
-//     // Scroll suave para âncoras
-//     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-//         anchor.addEventListener('click', function(e) {
-//             const targetId = this.getAttribute('href');
-//             if (targetId === '#') return;
-            
-//             const targetElement = document.querySelector(targetId);
-//             if (targetElement) {
-//                 e.preventDefault();
-//                 window.scrollTo({
-//                     top: targetElement.offsetTop - 80,
-//                     behavior: 'smooth'
-//                 });
-//             }
-//         });
-//     });
-// });
 
 
 // menu.js - Menu responsivo e funcionalidades
@@ -217,5 +137,5 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     window.addEventListener('resize', handleOrientationChange);
-    handleOrientationChange(); // Executa ao carregar
+    handleOrientationChange(); 
 });
