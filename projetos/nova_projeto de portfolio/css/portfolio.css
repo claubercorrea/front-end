@@ -71,7 +71,7 @@ nav{
     text-align: center;
     color: #00ffff;
     z-index: 1001;
-
+position: fixed;
  }
  /*seção sobre/apresentação */
  .container_titulo_pai{
@@ -538,6 +538,7 @@ footer {
     
     .menu.active {
         display: flex;
+       
     }
     
     .lista_menu {
