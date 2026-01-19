@@ -183,7 +183,7 @@ textarea.form-control {
     color:#00ffff;
     margin:40px 0 20px;
     margin-bottom: 50px;
-    margin-top: 20%;
+        margin-top: 39%;
 }
 .container_habilidades_temas{
    
@@ -598,6 +598,9 @@ footer {
     height: 518px;
     display: grid;
 }
+.titulo_projeto{
+        margin-top: 50%;
+}
 }
 
 /* Mobile Pequeno (até 575px) */
@@ -630,6 +633,7 @@ footer {
     
     .habilidades {
         font-size: 2.4rem;
+        margin-top: 56%
     }
     
     .container_habilidades_temas {
@@ -764,6 +768,7 @@ main.principal {
     max-width: 350px;
     min-height: 380px;
     margin: 0;
+}
 }
 
 /* Garante que os cards se ajustem corretamente */
@@ -903,6 +908,9 @@ footer {
         font-size: 1rem;
         padding: 8px 12px;
     }
+    .habilidades{
+        margin-top: 88%;
+    }
 }
 
 /* ===== CORREÇÃO PARA LANDSCAPE MOBILE ===== */
@@ -920,6 +928,9 @@ footer {
     .sobre {
         font-size: 1.2rem !important;
         margin: 10px auto;
+    }
+    .habilidades{
+        margin-top: 90%;
     }
 }
 
@@ -949,5 +960,4 @@ footer {
 /* Spinner para botão de envio */
 .spinner-border {
     vertical-align: middle;
-}
 }
