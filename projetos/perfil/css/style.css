@@ -16,13 +16,13 @@ font-family: 'Inter', sans-serif;
 }
 
 main{
-    display: flex;
+
     justify-content: center;
     justify-items: center;
     position: relative;
     flex-direction: column;
     flex-wrap: wrap;
-
+    overflow: hidden;
     width: 100%;
     min-height: 100vh;
     padding: 20px 0;
@@ -162,9 +162,9 @@ footer>p{
 
 @media screen and (max-width:767px  ){
 body{
-    margin: 0;
+    margin: auto;
     padding: 0;
-
+display: flex;
     opacity: 1;
 }
 
@@ -179,18 +179,37 @@ main{
 }
 
 .container_perfil {
-    height: 719px;
+    height: 458px;
     margin-left:auto;
     margin-right: auto;
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
     justify-items: center;
-            margin-top: 5%;
+            margin-top: -1%;
+
+}
+img{
+    width: 110px;
+    height: 111px;
+
+}
+
+h1,h4,p{
+    font-size: 0.9rem;
+    margin-top: 2%;
+}
+    
+
+
+.container_perfil ul li .link_contatos {
+        width: 160px;
+        height: 31px;
+    
 
 }
 footer >p {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 }
 
@@ -200,7 +219,7 @@ footer >p {
         width: 100vw;
         height: 100%;
         margin: auto;
-        padding: auto ; 
+        padding: 0 ; 
 
     }
 
