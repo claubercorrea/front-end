@@ -22,7 +22,7 @@ main{
     position: relative;
     flex-direction: column;
     flex-wrap: wrap;
-    overflow: hidden;
+
     width: 100%;
     min-height: 100vh;
     padding: 20px 0;
