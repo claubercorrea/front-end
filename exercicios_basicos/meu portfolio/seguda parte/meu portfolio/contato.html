@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>contatos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="shortcut icon" href="icones\clauber-removebg-preview.png " type="image/x-icon">
+
+        <link rel="stylesheet" href="myProjects/webProject/icofont/css/icofont.min.css">
+        <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        
+        <!-- Flowbite CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet">
+        
+        <!-- Seu CSS personalizado -->
+        <link href="css\style.css" rel="stylesheet">
+            
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="icones\clauber-removebg-preview.png" type="image/x-icon">
+    </head>
+    <body>
+        
+    <!-- Header com imagem responsiva -->
+        <header>
+            <div class="header-container">
+                <picture>
+                    <source media="(min-width: 1200px)" srcset="img\preto-md.jpeg">
+                    <source media="(min-width: 768px)" srcset="img\preto-md.jpeg">
+                    <source media="(max-width: 767px)" srcset="img\preto-md.jpeg">   
+                     <source media="(max-width: 400px)" srcset="img\preto-md.jpeg">
+                    <img src="img\Projeto Redimensionar imagem.png" alt="Header Background" class="header-img">
+                </picture>
+            </div>
+        </header>
+
+        <!-- Carrossel de linguagens -->
+        <div class="carrossel-container">
+            <div class="container">
+                <div class="carossel">
+                    <div class="item" style="--delay:1s"><img src="img\img_linguagens\js.png" alt="JavaScript" class="cont_img"></div>
+                    <div class="item" style="--delay:2s"><img src="img\img_linguagens\python.png" alt="Python" class="cont_img"></div>
+                    <div class="item" style="--delay:3s"><img src="img\img_linguagens\typescript.png" alt="TypeScript" class="cont_img"></div>
+                    <div class="item" style="--delay:4s"><img src="img\img_linguagens\junt.png" alt="Tecnologia" class="cont_img"></div>
+                    <div class="item" style="--delay:5s"><img src="img\img_linguagens\mongoDB.png" alt="Tecnologias" class="cont_img"></div>
+                    <div class="item" style="--delay:6s"><img src="img\img_linguagens\nodeJS.png"alt="Prisma "class="cont_img"></div>
+                    <div class="item" style="--delay:7s"><img src="img\img_linguagens\postgreSQL.png" alt="PostgreSQL" class="cont_img"></div>
+                    <div class="item" style="--delay:8s"><img src="img\img_linguagens\react.png" alt="React" class="cont_img"></div>
+                    <div class="item" style="--delay:9s"><img src="img\img_linguagens\prisma.png" alt="Prisma" class="cont_img"></div>
+                    <div class="item" style="--delay:10s"><img src="img\img_linguagens\prisma.png" alt="Prisma" class="cont_img"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu de navegação -->
+        <div class="menu-container">
+            <nav class="menu">  
+                <ul class="nav-link" ID="navmenu">
+                    <li class="nav_lista"><a href="./index.html" class="link_lista">Home</a></li>
+                    <li class="nav_lista"><a href="#linguagens" class="link_lista">Linguagens</a></li>
+                    <li class="nav_lista"><a href="#projetos" class="link_lista">Projetos</a></li>
+                    <li class="nav_lista"><a href="./sobre.html" class="link_lista">Sobre</a></li>
+                    <li class="nav_lista"><a href="./contato.html" class="link_lista">Contato</a></li>
+                </ul>
+
+                <div class="menu-icone" id="menuToggle">
+                    <i class="bi bi-list"></i>
+                </div>
+            </nav>
+        </div>
+        <main class="pagina_contato">
+            <div class="container_contato">
+                <div class="container_foto">
+                <picture class="foto_contato">
+                    <img src="./img/clauber-removebg-preview.png" alt="foto_contato" class="contato_img">
+
+                </picture>
+            </div>
+
+                <ul class="lista_contato">
+                    <li class="meu_contato"><a href="https://www.instagram.com/clauber_correa/" target="_blank"class="link_contato"> <i class="bi bi-instagram"class="icone_contato"></i><p class="paragrafo_contato">Instagram</p></a></li>
+                    <li class="meu_contato"><a href="https://www.linkedin.com/in/clauber-correa-rodrigues-valladares-720a45314/"target="_blank"class="link_contato"><i class="bi bi-linkedin"class="icone_contato"></i> <p class="paragrafo_contato">Linkedin</p></a></li>
+            <li class="meu_contato"><a href="http://wa.me/5527995082443"target="_blank"class="link_contato"> <i class="bi bi-whatsapp" class="icone_contato"></i><p class="paragrafo_contato">Whatsapp</p></a></li>
+                </ul>
+            </div>
+        </main>
+
+         <!-- Footer -->
+        <footer class="footer" id="contato">
+            <div class="footer-content">
+                <ul class="lista">
+                    <li class="roda"><a href="#linguagens" class="rodas">Linguagens</a></li>        
+                    <li class="roda"><a href="#projetos" class="rodas">Projetos</a></li>
+                    <li class="roda"><a href="./sobre.html" class="rodas">Sobre</a></li>
+                    <li class="roda"><a href="./contato.html" class="rodas">Contato</a></li>
+                </ul>
+                
+                <div class="footer-info">
+                    <p class="port">&copy; 2025 Clauber - Todos os direitos reservados do portfólio </p>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/principal.js"></script>
+    </body>
+
+</html>

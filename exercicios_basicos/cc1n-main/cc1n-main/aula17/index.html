@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>aula17-formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="estyles.css" rel="stylesheet">
+      
+        
+        <style>
+            *{
+                margin: 0;
+            }
+            div{
+                display: flex;
+            
+            }
+            .fomulario{
+                width: 400px;
+                padding: 30px;
+                border: 1px solid #ccc;
+
+            }
+            .fomulario span{
+                width: 100%;
+                font-size: 1.5em;
+
+            }
+            .field{
+                width: 100px;
+                margin: 15px 0;
+            }
+            .field span{
+                width: 100%;
+            font-size: 1.1em;
+
+            }
+
+            section{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-wrap: wrap;
+                width: 240px;
+
+            }
+            .radio label{
+                display: flex;
+                 display: inline;
+            }
+        </style>
+    </head>
+    <body>
+        <div><h1>formulario de contato</h1></div>
+<selction>
+    <form  class="formulario" action="claubinho80@gmail.com" method="post"></form>
+ <div clas="field">
+    <span>nome</span>
+    
+    <input type="text" id="nome" required placeholder=" nome do visitante"> <br>
+    
+    <span>email</span>
+    <input type="email">
+ </div clas="field">
+    <span>data nascimento</span>
+    <input type="date">
+<span>vista ao site</span>
+<input type="datetime-local">
+<span>senha</span>
+<input type="password" name="senha">
+<span>contato</span>
+<input type="radio" name="contato" id="sim" value="sim"> sim
+<input type="radio" name="contato" id="nao" value="nao"> nao <br>
+<span>assunto</span>
+<input type="checkbox" name="auto" id="auto"> automontivo 
+<input type="checkbox" name="negocios" id="auto"> negocios
+<input type="checkbox" name="auto" id="finanças"> finanças
+<input type="checkbox" name="auto" id="tecnologia"> tecnologia
+<input type="checkbox" name="auto" id="esporte"> esporte
+ <span>local</span>
+ <select name="local" id="local" size="1">
+    <option value="">selecione</option>
+    <optgroup label="grande vitoria"></optgroup>
+    <option value="vitoria"></option>
+    <option value="serra"></option>
+    <option value="cariacica"></option>
+    <option value="vila velha"></option>
+    <optgroup label="regiao serrana"></optgroup> 
+    <option value="DM"></option>
+    <option value="VH"></option>
+    <option value="PA"></option>
+</select>
+<span>comentario</span>
+
+    <input type="submit" name="enviar" id="enviar"> enviar
+<input type="reset" name="limpar" id="limpar"> limpar    
+
+    <form action="para onde ira o formulario" method="get ou post"></form>
+    </form>
+    </body>
+</html>

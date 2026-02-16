@@ -1,0 +1,29 @@
+@charset
+*{
+    padding: 0;
+    margin: 0%;
+box-sizing:border-box;
+font font-family: 'poppins','sans-serif';
+}
+header div{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 10px 15px;
+
+}
+head img{
+    width: 150px;
+    
+}
+header a {
+    margin: 0 5px;
+    text-decoration: none;
+    color:#0000;
+    padding: 5px;
+
+}
+head a:hover{
+     border-bottom: 3px solid #sfsese;
+}
