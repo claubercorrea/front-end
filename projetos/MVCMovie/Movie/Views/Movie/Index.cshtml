@@ -1,0 +1,131 @@
+﻿@{
+    ViewData["Title"] = "Lista de filmes";
+}
+
+@model IEnumerable<Movie.Models.MovieModel>
+
+<h1 class="text-white d-flex justify-content-center position-relative filme">
+    FILMES
+</h1>
+
+<style>
+    mark {
+        background-color: yellow !important;
+        color: black !important;
+        font-weight: bold !important;
+        padding: 2px 4px !important;
+        border-radius: 4px !important;
+    }
+</style>
+
+<!-- FORMULÁRIO DE BUSCA -->
+<div class="card mb-4 bg-dark text-white">
+    <div class="card-body">
+        <form method="get" asp-action="Pesquisar" id="formBusca">
+            <div class="row">
+                <div class="col-md-5 mb-3">
+                    <label class="form-label">Título:</label>
+                    <input type="text" name="titulo" id="campoTitulo"
+                           value="@ViewData["titulo"]"
+                           class="form-control"
+                           placeholder="Digite o título..." />
+                </div>
+
+                <div class="col-md-5 mb-3">
+                    <label class="form-label">Gênero:</label>
+                    <!-- CORREÇÃO: removido o asp-items -->
+                    <select name="genero" class="form-select">
+                        <option value="">-- Todos os Gêneros --</option>
+                        <option value="Ação">Ação</option>
+                        <option value="Aventura">Aventura</option>
+                        <option value="Drama">Drama</option>
+                        <option value="Ficção">Ficção</option>
+                        <option value="Suspense">Suspense</option>
+                        <option value="Terror">Terror</option>
+                        <option value="Comédia">Comédia</option>
+                    </select>
+                </div>
+
+                <div class="col-md-2 mb-3">
+                    <label class="form-label">&nbsp;</label>
+                    <button type="submit" class="btn btn-primary form-control">🔍 Buscar</button>
+                </div>
+            </div>
+        </form>
+        <a asp-action="Index" class="btn btn-secondary">🗑️ Limpar</a>
+        <a asp-action="Adicionar" class="btn btn-success float-end">➕ Adicionar</a>
+    </div>
+</div>
+
+<!-- TABELA -->
+<table class="table bg-body text-center text-white fw-bolder tabela justify-content-center position-relative mt-2">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nome do Filme</th>
+            <th>Gênero</th>
+            <th>Diretor</th>
+            <th>Data de lançamento</th>
+            <th>Opções</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var filme in Model)
+        {
+            <tr>
+                <th>@filme.Id</th>
+                <td class="titulo-filme">@filme.Titulo</td>
+                <td class="genero-filme">@filme.Genero</td>
+                <td>@filme.Diretor</td>
+                <td>@filme.Lancamento.ToString("dd/MM/yyyy")</td>
+                <td>
+                    <a asp-action="Editar" asp-route-id="@filme.Id" class="btn btn-outline-warning btn-sm">Editar</a>
+                    <a asp-action="Excluir" asp-route-id="@filme.Id" class="btn btn-outline-danger btn-sm">Excluir</a>
+                 </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function grifarTexto() {
+        var termo = document.getElementById('campoTitulo').value;
+        
+        if (!termo) {
+            document.querySelectorAll('mark').forEach(function(m) {
+                var pai = m.parentNode;
+                pai.innerHTML = pai.innerText;
+            });
+            return;
+        }
+        
+        var regex = new RegExp('(' + termo + ')', 'gi');
+        
+        var titulos = document.querySelectorAll('.titulo-filme');
+        for (var i = 0; i < titulos.length; i++) {
+            var texto = titulos[i].innerText;
+            if (texto.toLowerCase().indexOf(termo.toLowerCase()) !== -1) {
+                titulos[i].innerHTML = texto.replace(regex, '<mark>$1</mark>');
+            }
+        }
+        
+        var generos = document.querySelectorAll('.genero-filme');
+        for (var i = 0; i < generos.length; i++) {
+            var texto = generos[i].innerText;
+            if (texto.toLowerCase().indexOf(termo.toLowerCase()) !== -1) {
+                generos[i].innerHTML = texto.replace(regex, '<mark>$1</mark>');
+            }
+        }
+    }
+    
+    window.addEventListener('load', function() {
+        grifarTexto();
+    });
+    
+    var form = document.getElementById('formBusca');
+    if (form) {
+        form.addEventListener('submit', function() {
+            setTimeout(grifarTexto, 100);
+        });
+    }
+</script>

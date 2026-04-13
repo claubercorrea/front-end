@@ -1,0 +1,40 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Movie.Models.MovieModel
+<form methodo="post" asp-action="Editar"class="d-grid  justify-content-center text-center mb-3 text-danger  tp">
+    <div class="mb-3 ">
+        <label class="form-label text-white fw-bolder">Nome do filme</label>
+        <input asp-for="Titulo"type="text" class="form-control " placeholder="Nome do filme ">
+
+    </div>
+    <div class="mb-3">
+        <label class="form-label text-white fw-bolder ">Genero</label>
+        @* <input  asp-for="Genero"type="text" class="form-control" placeholder="Genero do filme" as> *@
+        <select name="Genero" class="form-select" asp-for="Genero">
+            <option value="">-- Todos os Gêneros --</option>
+            <option value="Ação">Ação</option>
+            <option value="Ação e aventura">Ação e aventura</option>
+            <option value="Aventura">Aventura</option>
+            <option value="Ficção">Ficção</option>
+            <option value="Drama">Drama</option>
+
+            <option value="Suspense">Suspense</option>
+        </select>
+    </div>
+    <div class="mb-3">
+        <label class="form-label  text-white fw-bolder">Diretor</label>
+        <input asp-for="Diretor"type="text" class="form-control inpu" placeholder="Nome do Diretor">
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label  text-white fw-bolder">Lançamento</label>
+        <input asp-for="Lancamento" type="text" class="form-control inpu" placeholder="Date de Lancamento">
+    </div>
+    <div class=" d-flex mb-3 ">
+    <button type="submit" class="btn btn-warning bt w-50 me-4 d-flex">Editar</button>
+    <a asp-controller="Movie" asp-action="Index" class=" btn btn-secondary bt w-50">voltar</a>
+    </div>
+</form>

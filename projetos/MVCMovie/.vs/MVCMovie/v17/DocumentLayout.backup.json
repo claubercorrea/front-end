@@ -1,0 +1,325 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\views\\movie\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\views\\movie\\editar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\views\\movie\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\views\\movie\\adicionar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\views\\movie\\pesquisar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\views\\movie\\pesquisar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\views\\movie\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\views\\movie\\excluir.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Migrations\\20260413011847_datalancamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Movie\\Migrations\\20260413011847_datalancamento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\models\\moviemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\models\\moviemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\migrations\\20260412044339_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\migrations\\20260412044339_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\data\\moviecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|c:\\users\\adm\\onedrive\\desktop\\gerenciadorfinanceiro\\.vs\\gerenciadorfinanceiro\\mvcmovie\\movie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B50D1D6-2D64-4FEB-A346-879980EEE22A}|Movie\\Movie.csproj|solutionrelative:movie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T21:55:01.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Excluir.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Movie\\Excluir.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Movie\\Excluir.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Movie\\Excluir.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Movie\\Excluir.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T07:59:34.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Editar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Movie\\Editar.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Movie\\Editar.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Movie\\Editar.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Movie\\Editar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T07:58:39.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Movie\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Movie\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwFMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-12T05:49:45.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Adicionar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Movie\\Adicionar.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Movie\\Adicionar.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Movie\\Adicionar.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Movie\\Adicionar.cshtml",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwB0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T05:09:16.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Pesquisar.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Movie\\Pesquisar.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Movie\\Pesquisar.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Movie\\Pesquisar.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Movie\\Pesquisar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T05:08:47.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Movie\\Index.cshtml*",
+              "RelativeToolTip": "Movie\\Views\\Movie\\Index.cshtml*",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAUwEwAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T05:04:28.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T05:04:08.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20260412044339_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Migrations\\20260412044339_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Movie\\Migrations\\20260412044339_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Migrations\\20260412044339_InitialCreate.cs",
+              "RelativeToolTip": "Movie\\Migrations\\20260412044339_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T04:43:39.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Movie\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Movie\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T04:41:15.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Program.cs",
+              "RelativeDocumentMoniker": "Movie\\Program.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Program.cs",
+              "RelativeToolTip": "Movie\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T04:36:38.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Movie\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Movie\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowC4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T01:51:52.825Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20260413011847_datalancamento.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Migrations\\20260413011847_datalancamento.cs",
+              "RelativeDocumentMoniker": "Movie\\Migrations\\20260413011847_datalancamento.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Migrations\\20260413011847_datalancamento.cs",
+              "RelativeToolTip": "Movie\\Migrations\\20260413011847_datalancamento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T01:18:47.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MovieModel.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Models\\MovieModel.cs",
+              "RelativeDocumentMoniker": "Movie\\Models\\MovieModel.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Models\\MovieModel.cs",
+              "RelativeToolTip": "Movie\\Models\\MovieModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T04:35:14.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MovieContext.cs",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\DATA\\MovieContext.cs",
+              "RelativeDocumentMoniker": "Movie\\DATA\\MovieContext.cs",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\DATA\\MovieContext.cs",
+              "RelativeToolTip": "Movie\\DATA\\MovieContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-12T04:25:23.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Movie\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Movie\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-12T00:56:45.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Movie\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\ADM\\OneDrive\\Desktop\\GerenciadorFinanceiro\\.vs\\GerenciadorFinanceiro\\MVCMovie\\Movie\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Movie\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAACIAAAAAAAAAAAAIwDYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-12T00:15:05.536Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

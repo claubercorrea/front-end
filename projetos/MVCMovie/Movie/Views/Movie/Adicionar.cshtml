@@ -1,0 +1,50 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model Movie.Models.MovieModel
+<h1 class="text-center text-white">Adicionar filmes</h1>
+<div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+<form methdo="post" asp-action="Adicionar"class=" d-grid  justify-content-center text-center mb-3 text-danger  tp">
+    <div class="mb-3 ">
+        @*aqui se usa o asp-for para comunicacao com o SQL*@
+        <label  class="form-label text-white fw-bolder" asp-for="Titulo">Nome do filme</label>
+        <input type="text" class="form-control inpu order-1 border-primary " placeholder="Nome do filme " asp-for="Titulo">
+ 
+    </div>
+    @*aqui se usa o asp-for para comunicacao com o SQL*@
+    <div class=" mb-3">
+        <label  class="form-label text-white fw-bolder" asp-for="Genero">Genero</label>
+        @* <input type="text" class="form-control border-1 border-primary" placeholder= "Genero do filme" asp-for="Genero" > *@
+        <select name="Genero" class="form-select" asp-for="Genero">
+            <option value="">-- Todos os Gêneros --</option>
+            <option value="Ação">Ação</option>
+            <option value="Ação e aventura">Ação e aventura</option>
+            <option value="Aventura">Aventura</option>
+            <option value="Ficção">Ficção</option>
+            <option value="Drama">Drama</option>
+
+            <option value="Suspense">Suspense</option>
+        </select>
+    </div>
+    @*aqui se usa o asp-for para comunicacao com o SQL*@
+    <div class="mb-3">
+        <label class="form-label  text-white fw-bolder"asp-for="Diretor">Diretor</label>
+        <input type="text" class="form-control inpu order-1 border-primary" placeholder="Nome do Diretor" asp-for="Diretor">
+    </div>
+    <div class="mb-3">
+        <label class="form-label  text-white fw-bolder" asp-for="Lancamento">Data de lancamento </label>
+        <input type="text" class="form-control inpu order-1 border-primary" placeholder="Data de lancamento" asp-for="Lancamento">
+    </div>
+   <div class="form-group d-flex ">
+    <button type="submit" class="btn btn-primary w-50 bt me-2">Salvar</button>
+    <a asp-controller="Movie" asp-action="Index" class=" btn btn-danger bt w-50" >voltar</a>
+    </div>
+</form>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
